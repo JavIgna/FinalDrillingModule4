@@ -1,0 +1,59 @@
+.vertical-line-custom {
+  width: 1px;
+  background-color: #dfdcdc;
+  height: 110%;
+}
+
+.col-2 {
+  position: relative;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.line-container {
+  position: absolute;
+  height: 100%;
+  right: -50;
+  top: 0;
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: #f1c40f;
+  border-radius: 50%;
+}
+
+.card {
+  min-height: 150px;
+  position: relative;
+  padding-left: 50px;
+}
+
+.circle {
+  position: absolute;
+  top: 28%;
+  left: 25px; /* Ajusta el valor según el tamaño del círculo y el margen deseado */
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  z-index: 1;
+  margin-right: 10px;
+}
+
+.red {
+  background-color: #fa8072;
+}
+
+.green {
+  background-color: #90ee90;
+}
+
+.blue {
+  background-color: #87cefa;
+}
